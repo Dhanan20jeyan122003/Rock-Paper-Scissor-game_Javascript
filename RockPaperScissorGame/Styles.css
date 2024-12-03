@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: chartreuse;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+.choices button{
+    font-size: 7rem;
+    border-radius: 50%;
+    background-color: darksalmon;
+    margin-bottom: 1rem;
+   cursor: pointer;
+
+}
+
+.choices button:hover{
+       background-color: darkviolet;
+}
+
+#PlayerDisplay,#ComputerChoice{
+    font-size: 4rem;
+   padding-bottom: 20px;
+}
+
+#Result{
+    font-size: 3.5rem;
+}
+
+.wintext{
+     color: rgb(4, 0, 255);
+
+}
+
+.losetext{
+  
+    color: crimson;
+    
+}
+#Playerdisplay,#ComputerDisplay{
+    font-size: 2rem;
+}
